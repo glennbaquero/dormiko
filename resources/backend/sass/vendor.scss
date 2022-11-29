@@ -1,0 +1,218 @@
+@import '~bootstrap3/dist/css/bootstrap.css';
+@import '~bootstrap-utilities/bootstrap-utilities.css';
+@import '~admin-lte/dist/css/AdminLTE.css';
+@import '~admin-lte/dist/css/skins/skin-red-light.css';
+@import '~datatables.net-bs/css/dataTables.bootstrap.css';
+@import '~select2/dist/css/select2.css';
+@import '~flatpickr/dist/flatpickr.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+@import '~datatables.net-bs/css/dataTables.bootstrap.css';
+@import '~dropzone/dist/dropzone.css';
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background-color: #3C8DBC !important;
+	border-color: #367FA9 !important;
+}
+
+.select2-selection__choice__remove {
+	color: #fff !important;
+}
+
+.form-control {
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+}
+
+.treeview .treeview-menu {
+	display: block !important;
+	visibility: hidden;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.treeview.menu-open .treeview-menu {
+	visibility: visible;
+	opacity: 1;
+	height: auto;
+}
+
+.selection-box {
+	border:solid 1px gray; 
+	width: 50%; 
+	padding: 8px 8px 8px 14px;
+	width: 100%;
+}
+
+.tenant-selection-box {
+	border:solid 1px gray; 
+	width: 15%; 
+	padding: 8px 8px 8px 14px
+}
+
+.text-box {
+	width: 70%;
+	padding: 8px;
+	margin-bottom: 2%
+}
+
+
+.penalty-modal-top-border {
+	border-top: #e52e0e solid 5px; 
+	margin-top: 7%; 
+	width: 30%
+}
+
+.penalty-text-input {
+	width: 100%;
+	padding: 6px
+}
+
+.modal-btn-primary {
+	border: none;
+	border-radius: 0px;
+	width:  25%
+}
+
+.c-red {
+	color: #e52e0e
+}
+
+.btn-submit {
+	border: 1px;
+	padding: 9px;
+	width: 21%
+}
+
+.skin-red-light .main-header .navbar {
+  background-color: #0f0f2d;
+}
+
+.skin-red-light .main-header .navbar .sidebar-toggle:hover {
+  background-color: #0f0f2d;
+}
+
+.skin-red-light .main-header .logo {
+  background-color: #0f0f2d;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+.skin-red-light .main-header .logo:hover {
+  background-color: #0f0f2d;
+}
+
+.skin-red-light .main-header li.user-header {
+  background-color: #0f0f2d;
+}
+
+.skin-red-light .sidebar-menu > li.active {
+  border-left-color: #0f0f2d;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #0f0f2d;
+}
+.box-header {
+	padding: 31px;
+}
+.selection-box{
+	width: 100%;
+}
+
+.admin-logo-lg {
+	
+	.svg__logo {
+		width: 100%;
+		max-width: 55px;
+	}
+
+	.svg__logo {
+
+		.cls-1 { fill:#FFF; }
+    	.cls-2 { fill:#f9320b; }
+	}
+}
+.user-panel .info  {
+	padding-top: 17px;
+}
+
+.user-panel > div{
+	display: inline-block;
+
+}
+
+.user-panel {
+	width: 80%;
+    margin: 0 auto;
+    text-align: left;
+	
+	.info {
+		position: relative;
+		left: 0;
+	}
+}
+
+.skin-red-light .sidebar-menu > li.active > a {
+	border-left: 6px solid #0f0f2d;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.login-text-field {
+	border: 1px solid #000; 
+	border-radius: 0px
+}
+
+.login-button {
+	background-color: #12122f; 
+	color: white
+}
+
+
+.w-11 {
+	width: 11%;
+}
+.w-25 {
+	width: 25%
+}
+
+.w-15 {
+	width: 15%
+}
+
+.w-75 {
+	width: 75%
+}
+
+.w-100 {
+	width: 100%
+}
+
+.w-115 {
+	width: 115%
+}
+
+.ml-14 {
+	margin-left: 14px
+}
+
+.ml-15 {
+	margin-left: 15px
+}
+
+.pdf-logo {
+	width: 35%; 
+	margin: 0 auto; 
+	margin-left: 60%
+}
+
+.invoice-text-box {
+	padding: 6px;
+	border-radius: 0px;
+	border: 1px solid gray;
+	margin: 0 auto;
+	width: 29%;
+}
+

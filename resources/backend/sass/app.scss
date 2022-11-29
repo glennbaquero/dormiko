@@ -1,0 +1,7 @@
+@import './mixins/dev.scss';
+@import './mixins/_utilities.scss';
+@import './components/_loaders.scss';
+
+.main-header .sidebar-toggle:before {
+	content: "";
+}

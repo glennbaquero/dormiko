@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+/* General */
+
+@media screen and (max-width: 1140px) {
+	footer .footer__top,
+	footer .footer__top_cols{
+		height:unset;
+		padding:2% 0;
+	}
+	footer .footer__top_cols {
+		transform: none;	
+	}
+	footer .svg__logo{
+		width: 25%;
+	}
+	footer .footer__top_cols > div{
+		width: 100% !important;
+		padding:0 0 5% 5%;
+	}
+	footer .footer__top_cols > div:first-child{
+		padding:0;
+	}
+}
+
+@media screen and (max-width: 1290px){
+	#homepage .building__tabs .tab__content {
+		right: 12px;
+		top: 18%;
+	}
+
+	#homepage .building__tabs .tab__header {
+	    left: 20px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	header .header__inner .menu{
+		display:none;
+	}
+	.mbl_display{
+		display:inline-block;
+	    margin-top: -4px;
+
+		.show-all{
+			background: #0f0f2d;
+			border: none;
+			border-radius: 50px;
+			padding: 6px;
+			position: absolute;
+			bottom: 3%;
+			color: white !important;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 20%;
+		}
+	}
+	.desktop_display{
+		display:none;
+	}
+
+	#homepage .frame4 {
+		margin-top: 15%;
+	}
+
+	#homepage .building__tabs .tab__header {
+	    left: -8px;
+	}
+	#homepage .building__tabs .tab__content {
+	    right: 0px;
+	    top: 20%;
+	    height: 68%;
+	}
+
+	#homepage .frame4 .frame4__right_inner {
+	    top: 71%;
+	}
+
+	#homepage .building__tabs .tab__content .tab__content_item .tab__content_slider .building_img{
+		height:50vh;
+	}
+	#homepage .building__tabs{
+		height:unset;
+	}
+	#homepage .frame4 .frame4__right_inner .amenities__icon_content, #homepage .frame4 .frame4__right_inner .slick-slide > div {
+		width: 100%;
+	}
+	header{
+		height:75px;
+	}
+	header .header__inner .logo .logo__inner{
+		width: unset;
+		max-width:unset;
+	}
+	header .header__inner{
+		padding:0;
+	}
+	header .svg__logo{
+		height:9vh;
+	}
+
+	#homepage .frame4 .lozad[data-loaded] {
+		width: 10vh;
+	}
+
+}
+
+@media screen and (max-width: 350px) { 
+	.mbl_display{
+		display:block;
+
+		.show-all{
+			background: #0f0f2d;
+			border: none;
+			border-radius: 50px;
+			padding: 6px;
+			position: absolute;
+			bottom: 3%;
+			color: white !important;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 30%;
+		}
+	}
+
+	#homepage .frame5 {
+	    height: unset;
+	    min-height: 50vh;
+	    margin-top: 50%;
+	}
+
+	#homepage .frame4 {
+	    margin-top: 30%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#homepage .building__tabs .tab__content .tab__content_item .tab__content_slider .building_img{
+		height:40vh;
+	}
+	.slider-arrows #prev i,
+	.slider-arrows #next i{
+		font-size:1em;
+	}
+}
+@media screen and (max-width: 450px) {
+	#homepage .building__tabs .tab__content .tab__content_item .tab__content_slider .building_img{
+		height:30vh;
+	}
+}
+
+/* Homepage */
+@media screen and (max-width:509){
+	#homepage .frame4 .frame4__right_inner {
+	    top: 65%;
+	    width: 100%;
+	}
+
+	#homepage .frame5 {
+	    height: unset;
+	    min-height: 50vh;
+	    margin-top: 12%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#homepage .frame1{
+		height:50vh;
+	}
+	#homepage .building__tabs .tab__content .tab__content_item .tab__content_slider .tab__content_img_col,
+	#homepage .building__tabs .tab__content .tab__content_item .tab__content_slider .tab__content_description{
+		width: 50%;
+	}
+	
+	#homepage .building__tabs .tab__header {
+		width: 17%;
+		overflow-y: auto;
+		height: 266px;
+	}
+
+	#homepage .building__tabs .tab__header .tab__header_item{
+		width: 100%;
+	}
+	#homepage .frame4 .frame4__left, #homepage .frame4 .frame4__right{
+		width: 100%;
+		height:50%;
+	}
+	#homepage .frame4 .frame4__right_inner .amenities__icon_content > div:last-child {
+		padding-left: 3vh;
+	}
+
+	#homepage .frame5 .monthly__cost_item{
+		width: 100%;
+		margin-bottom:7vh;
+	}
+	#homepage .frame5 {
+	    height: unset;
+	    min-height: 50vh;
+	    margin-top: 50%;
+	}
+	#homepage .building__tabs .tab__content .tab__content_item .img_map_link {
+  	    padding: 0 0vh;
+	}
+	#homepage .frame6 .photo__gallery_top .photo__gallery_top_left{
+		width: 100%;
+	}
+	#homepage .frame6 .photo__gallery_top{
+		height:40vh;
+	}
+	#homepage .frame6 .photo__gallery_top .photo__gallery_top_right,
+	#homepage .frame6 .photo__gallery_bottom > div{
+		display:none;
+	}
+	#homepage .frame6 .photo__gallery_bottom > div:first-child{
+		display:block;
+		width: 100%;
+	}
+
+	#homepage .building__tabs .tab__content .tab__content_item .img_map_link {
+	    width: 5vh !important;
+	}
+}
+/* ABOUT PAGE */
+@media screen and (max-width:850px){
+	#aboutpage .frame2 .frame2__items .frame2__item > div{
+		width: 100%;
+		margin-bottom: 5vh;
+	}
+	#aboutpage .frame2 .frame2__items .img__round{
+		width: 25vh;
+		height:25vh;
+	}
+	#aboutpage .frame2 .frame2__items .img__desc{
+		width: 90%;
+	}
+}
+/* LOCATION PAGE */
+@media screen and (max-width:1024px){
+	#locationpage .frame2 .building__items .building__item,
+	#locationpage .frame2 .building__items .building__img{
+		width: 100%;
+	}
+}
+@media screen and (max-width:500px){
+	#locationpage .frame2 .building__items .building__item,
+	#locationpage .frame2 .building__items .building__item:nth-child(odd){
+		margin-right: 0;
+	}
+	#locationpage .frame2 .frame__inner{
+		width: 100%;
+	}
+	#locationpage .mbl_location_padding{
+		padding-left:5%;
+	}
+}
+/* SELECTED LOCATION */
+@media screen and (max-width: 1024px){
+	#selected_building_page .frame2 .frame2__items > div{
+		width: 100%;
+	}
+	#selected_building_page .frame2 .building__amenities{
+		margin-top: 5vh;
+	}
+	#selected_building_page .frame2 .dorm__img,
+	#selected_building_page .frame2 .dorm__item{
+		width: 100%;
+	}
+	#selected_building_page .frame2 .dorm__item .bottom__title_overlay button{
+		right: 10px;
+	}
+}
+@media screen and (max-width:850px){
+	#selected_building_page .frame1 .location__image_col1{
+		width: 100%;
+	}
+	#selected_building_page .frame1 .location__image_col2,
+	#selected_building_page .frame1 .location__image_col3{
+		display:none;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	#selected_building_page .frame2 .frame__inner{
+		width: 90%;
+	}
+
+	#homepage .building__tabs .tab__header {
+		width: 23%;
+		overflow-y: auto;
+		height: 266px;
+	}
+
+	#homepage .building__tabs .tab__content {
+		width: 79%;
+		top: 19%;
+	}
+}
+@media screen and (max-width: 500px){
+	#selected_building_page .frame2 .dorm__img,
+	#selected_building_page .frame2 .dorm__item{
+		width: 100%;
+	}
+	#selected_building_page .frame2 .dorm__item .bottom__title_overlay{
+		height:15vh;
+	}
+	#selected_building_page .frame2 .dorm__item .bottom__title_overlay .vertical-align{
+		padding:3vh;
+	}
+	#selected_building_page .frame2 .dorm__item .bottom__title_overlay button{
+		right: 0;
+		max-width: unset;
+		width: 100%;
+		margin-top: 1vh;
+	}
+}
+
+/* GALLERY PAGE */
+@media screen and (max-width: 1290px){
+	#gallerypage .frame2 .building__items .building__item:nth-child(odd){
+		margin-right: 1%;
+	}
+}
+@media screen and (max-width: 1220px){
+	#gallerypage .frame2 .building__items .building__item:nth-child(odd){
+		margin-right: 0;
+	}
+	
+}
+@media screen and (max-width: 600px){
+	#gallerypage .frame2 .building__items .building__item{
+		width: 100%;
+		border:none;
+	}
+	#gallerypage .frame__inner{
+		width: 100%;
+	}
+}
+
+/* RESERVATION PAGE */
+
+@media screen and (max-width: 1024px){
+	#reservationpage .frame2 .reservation__form_col{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 5vh;
+	}
+	#reservationpage .frame2 .reservation__summary_col{
+		width: 100%;
+		margin-left:0;
+	}
+}
+@media screen and (max-width: 600px){
+	.form__row .form__input.half__width{
+		width: 100% !important;
+		margin:0 !important;
+	}
+	#reservationpage .frame2 .reservation__form_col .reservation__form{
+		padding:5vh 3vh;
+	}
+	#reservationpage .reservation__form button{
+		max-width: none;
+	}
+	.form__row .form__input.half__width:last-child{
+		margin-top: 2vh !important;
+	}
+	#reservationpage .frame2 .reservation__summary_col .reservation__summary .summary__item .summary__item_img,
+	#reservationpage .frame2 .reservation__summary_col .reservation__summary .summary__item .summary__item_desc{
+		width: 100%;
+		height:50%;
+	}
+	#reservationpage .frame2 .reservation__summary_col .reservation__summary .summary__item{
+		height:50vh;
+	}
+}
+
+@media screen and (max-width: 550px){
+
+}
