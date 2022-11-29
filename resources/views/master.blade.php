@@ -84,7 +84,7 @@
         @include('includes.all_buildings_script')
         
         <!-- Google  -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxRaOIK2odsKvUbUckPcuHxFb9NopS_8M"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="></script>
             
         <!-- App -->
         <script type="text/javascript" src="{{ asset('assets/manifest.js') }}"></script>
